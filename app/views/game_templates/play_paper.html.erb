@@ -1,11 +1,11 @@
 <h1>Rock Paper Scissors</h1>
 
-<p>We played rock!</p>
+<p>We played paper!</p>
 <p>They played <%= @random_move %>!</p>
 
-<% if @random_move == "scissors" %>
+<% if @random_move == "rock" %>
   <p>We won!</p>
-<% elsif @random_move == "paper" %>
+<% elsif @random_move == "scissors" %>
   <p>We lost!</p>
 <% else %>
   <p>We tied!</p>
